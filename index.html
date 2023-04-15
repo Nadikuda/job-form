@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./job.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        
+    <div class="heading">
+    <h1>Job Application form</h1>
+    <h2>Using HTML and CSS</h2>
+    </div>
+    </header>
+      <section>
+    <main>
+        <div >
+        <h3>Job</h3>
+        <label>
+            Application for *
+            <div>
+           <select name=" Application for" id="form-width" required>
+           
+           <option >Job 1</option>
+           <option>Job 2</option> 
+           </select>
+            </div>
+        </label>
+        </div>
+        <!----------- personal --------------->
+        
+            <h3>Personal details</h3>
+            <div class="form">
+                <div class="row-gap">
+                    <div>
+        <label>
+            First Name *
+            <input type="text" placeholder="First Name..." required>
+        </label>
+                </div>
+                <div>
+            <label>Last Name *</label>
+            <input type="text" placeholder="Last Name..." required>
+        </div>
+            </div>
+           
+        <div class="row-gap" >
+            <div>
+            <label>
+                Citizenship *
+            </label>
+            <input type="text" required>
+            </div>
+            <div>
+            <label>Date of birth *</label>
+            <input type="date" required>
+            </div>
+        </div>
+        <div >
+            <label>Address *</label>
+            <input type="text" id="form-width" required>
+        </div>
+        <div class="row-gap" >
+            <div>
+            <label>Zip code *</label>
+            <input type="text" required>
+            </div>
+            <div>
+            <label>Postal code</label>
+            <input type="number" required>
+            </div>
+        </div>
+        <div class="row-gap">
+            <div>
+            <label>Phone Number *</label>
+            <input type="text" required>
+            </div>
+            <div>
+            <label>Email Address *</label>
+            <input type="email" required>
+            </div>
+        </div>
+        </div>
+      
+        <h3>Application Documents</h3>
+        <div  class="row-gap">
+            <div >
+            <label>Application Letter *</label>
+            <input type="file" required>
+            </div>
+            <div>
+            <label>Curriculum vitae</label>
+            <input type="file">
+            </div>
+        </div>
+        <p>Possible file types: DOC, PDF. Maximum file size: 10 MB</p>
+        
+        
+    </main>
+    <footer>
+        <button > Submit application</button>
+    </footer>
+      </section>
+</body>
+</html>

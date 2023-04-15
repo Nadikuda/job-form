@@ -1,0 +1,57 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.heading{
+   text-align: center;
+}
+section{
+    background-color: rgb(240,237,250);
+   
+    gap:20px;
+    padding:50px
+}
+
+body{
+  background-color: rgb(54,126,247);
+}
+h1{
+    color:white
+}
+h2{
+    color:rgb(219,234,254)
+}
+.form, .row-gap{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+
+
+
+input, select, #form-width{
+    width:30%;
+    height:50hv
+}
+
+
+
+.header, section{
+    padding-left:20%;
+    padding-right:20%;
+}
+button{
+    background-color: blue;
+    color:white;
+    padding:10px;
+    border:none;
+    font-size: 15px;
+    
+}
+button:hover{
+    color:black;
+    background-color: rgb(42, 198, 209);
+}
+.border{
+    border:1px soild black;
+}
